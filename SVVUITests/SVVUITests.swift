@@ -73,6 +73,7 @@ class SVVUITests: XCTestCase {
     func testShouldGoToNextPageAndTypeSomething(){
         
         let app = XCUIApplication()
+        XCTAssert(app.buttons["Button"].exists)
         app.buttons["Button"].tap()
         
         let element = app.otherElements.containing(.navigationBar, identifier:"Second Page").children(matching: .other).element.children(matching: .other).element.children(matching: .other).element
