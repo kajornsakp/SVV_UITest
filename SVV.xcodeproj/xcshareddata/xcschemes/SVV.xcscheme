@@ -20,6 +20,34 @@
                ReferencedContainer = "container:SVV.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "ACDD06DE1EBA35A10051BF27"
+               BuildableName = "SVVUITests.xctest"
+               BlueprintName = "SVVUITests"
+               ReferencedContainer = "container:SVV.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "ACDD06D31EBA35A10051BF27"
+               BuildableName = "SVVTests.xctest"
+               BlueprintName = "SVVTests"
+               ReferencedContainer = "container:SVV.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction

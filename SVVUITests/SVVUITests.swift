@@ -72,18 +72,6 @@ class SVVUITests: XCTestCase {
     
     func testShouldGoToNextPageAndTypeSomething(){
         
-        let app = XCUIApplication()
-        XCTAssert(app.buttons["Button"].exists)
-        app.buttons["Button"].tap()
-        
-        let element = app.otherElements.containing(.navigationBar, identifier:"Second Page").children(matching: .other).element.children(matching: .other).element.children(matching: .other).element
-        let textField = element.children(matching: .textField).element
-        textField.tap()
-        textField.typeText("hello")
-        element.tap()
-        app.alerts["Alert"].buttons["OK"].tap()
-        app.otherElements.containing(.alert, identifier:"Alert").children(matching: .other).element(boundBy: 0).tap()
-        app.navigationBars["Second Page"].buttons["First Page"].tap()
         
     }
     
